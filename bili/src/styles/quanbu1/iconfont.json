@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2154214",
+      "name": "UP主_32",
+      "font_class": "UPzhu",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "2154470",
+      "name": "44_点点点",
+      "font_class": "diandiandianshu",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "2154856",
+      "name": "播放器-弹幕滚动（开）_44",
+      "font_class": "bofangqi-danmugundongkai",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "2325705",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5663246",
+      "name": "LV1",
+      "font_class": "1",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "5663247",
+      "name": "LV2",
+      "font_class": "2",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "5663248",
+      "name": "LV3",
+      "font_class": "3",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "5663249",
+      "name": "LV4",
+      "font_class": "4",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "5663250",
+      "name": "LV5",
+      "font_class": "5",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "6582264",
+      "name": "播放2",
+      "font_class": "bofang",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7192335",
+      "name": "转发",
+      "font_class": "zhuanfa",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<template>
+	<view style="background-color: white;width: 100vw;height: 100vh;">
+		<view class="cu-bar search ">
+			<view class="search-form round">
+				<text class="cuIcon-search"></text>
+				<input @focus="InputFocus" @blur="InputBlur" :adjust-position="false" type="text" placeholder=" " confirm-type="search"></input>
+			</view>
+		</view>
+		<view class="comm_info">
+			<view class="comm_top">
+				<view class="comm_hand">
+					<image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"></image>
+				</view>
+				<view class="comm_data">
+					<view class="comm_tit">
+						<view style="font-size: 32upx; font-weight: 600;color: #252525;">旅行天使</view>
+						<view style="font-size: 32upx; font-weight: 500;color: #252525;">星星</view>
+						<view style="font-size: 26upx; font-weight: 500;color: #7A7A7A;float: right;text-align: right;line-height: 38upx;">2018/3/3</view>
+					</view>
+					<view class="comm_con">快递小哥服务非常棒，那么重都帮我搬家里了，床也不错，目前没有什么问题，就是遥控器线再长点
+						就好了，放左边没问题，不过不是大问题。快递小哥服务非常棒，那么重都帮我搬家里了，床也不错，目前没有什么问题，就是遥控器线再长点
+						就好了，放左边没问题，不过不是大问题。
+					</view>
+				</view>
+			</view>
+			<view class="comm_down">
+				<view class="goods_info">
+					<view class="orderList">
+						<view class="order_body">
+							<view style="height: 160upx;">
+								<view class="order_img">
+									<image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg"></image>
+								</view>
+								<view class="order_text">
+									<view class="text_js">电动护理床家用多功能老人瘫痪病人全自动</view>
+									<view class="text_format">规格：基础款</view>
+								</view>
+								<view class="order_jgsl">
+									<view class="order_price">￥99</view>
+									<view class="order_num">x1</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+<view class="comm_info">
+			<view class="comm_top">
+				<view class="comm_hand">
+					<image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg"></image>
+				</view>
+				<view class="comm_data">
+					<view class="comm_tit">
+						<view style="font-size: 32upx; font-weight: 500;color: #252525;">旅行天使</view>
+						<view style="font-size: 32upx; font-weight: 500;color: #252525;">星星</view>
+						<view style="font-size: 26upx; font-weight: 500;color: #7A7A7A;float: right;text-align: right;">2018/3/3</view>
+					</view>
+					<view class="comm_con">快递小哥服务非常棒，那么重都帮我搬家里了，床也不错，目前没有什么问题，就是遥控器线再长点
+						就好了，放左边没问题，不过不是大问题。快递小哥服务非常棒，那么重都帮我搬家里了，床也不错，目前没有什么问题，就是遥控器线再长点
+						就好了，放左边没问题，不过不是大问题。
+					</view>
+				</view>
+			</view>
+			<view class="comm_down">
+				<view class="goods_info">
+					<view class="orderList">
+						<view class="order_body">
+							<view style="height: 160upx;">
+								<view class="order_img">
+									<image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg"></image>
+								</view>
+								<view class="order_text">
+									<view class="text_js">电动护理床家用多功能老人瘫痪病人全自动</view>
+									<view class="text_format">规格：基础款</view>
+								</view>
+								<view class="order_jgsl">
+									<view class="order_price">￥99</view>
+									<view class="order_num">x1</view>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+
+			};
+		},
+	}
+</script>
+
+<style lang="scss">
+	@import "./myComm.scss"
+</style>

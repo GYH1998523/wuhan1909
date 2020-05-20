@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/index",
+    "pages/classification/index",
+    "pages/package/index",
+    "mycomponents/search/search",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/registerUpload/registerUpload",
+    "pages/loginAllow/loginAllow",
+    "pages/forgetPassword/forgetPassword",
+    "pages/orders/orders",
+    "pages/orders/logistics/logistics",
+    "pages/orders/initAddress/initAddress",
+    "pages/orders/wlDetails/wlDetails",
+    "pages/orders/comment/comment",
+    "pages/orders/invoice/invoice",
+    "pages/orders/refund/refund",
+    "pages/orders/waitPay/waitPay",
+    "pages/orders/waitShip/waitShip",
+    "pages/orders/waitReceive/waitReceive",
+    "pages/orders/waitComm/waitComm",
+    "pages/orders/refunding/refunding",
+    "pages/orders/refundCx/refundCx",
+    "pages/changeInfo/changeInfo",
+    "pages/changeInfo/editAdd/editAdd",
+    "pages/changeInfo/initAdd/initAdd",
+    "pages/changeInfo/myComm/myComm",
+    "pages/goods/goods",
+    "mycomponents/goods_cs/goods_cs",
+    "mycomponents/goods_tc/goods_tc",
+    "pages/goods/goods_search/goods_search",
+    "store/modules/modules",
+    "pages/goods/comment/comment",
+    "pages/goods/shoppingCart/shoppingCart",
+    "pages/submit/submit",
+    "pages/goods/shoppingCat_dan/shoppingCat_dan",
+    "pages/submit/confirm/confirm",
+    "pages/submit/initAdd/initAdd",
+    "pages/submit/paySucc/paySucc"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "医来顺商场",
+    "navigationBarBackgroundColor": "#1C7DF6",
+    "backgroundColor": "#1C7DF6"
+  },
+  "tabBar": {
+    "color": "#4E4E4E",
+    "selectedColor": "#1C7DF6",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/tabbar/sc2.png",
+        "selectedIconPath": "static/img/tabbar/sc1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/index",
+        "iconPath": "static/img/tabbar/fl2.png",
+        "selectedIconPath": "static/img/tabbar/fl1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/package/index",
+        "iconPath": "static/img/tabbar/tc2.png",
+        "selectedIconPath": "static/img/tabbar/tc1.png",
+        "text": "套餐"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/img/tabbar/my2.png",
+        "selectedIconPath": "static/img/tabbar/my1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap69.json"
+}

@@ -1,0 +1,31 @@
+@import "common";
+@import "animate.css";
+@import "vant.css";
+@import "fonts/iconfont.css";
+@import "log/iconfont.css";
+@import "iconfont1/iconfont.css";
+@import "dianzan1/iconfont.css";
+@import "quanbu1/iconfont.css";
+@import "yinyuan/iconfont.css";
+// 项目主体 字体颜色 和 字体大小
+
+$base_color: #123456;
+$base_ft: 24px;
+$color: #fb7299;
+
+html,
+body,
+#app,
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+#gao {
+  color: rgb(124, 124, 124)!important;
+}
+.lina{
+  color: #fb7299!important;
+
+}
+

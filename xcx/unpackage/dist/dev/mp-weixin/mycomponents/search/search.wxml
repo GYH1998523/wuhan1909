@@ -1,0 +1,1 @@
+<view><view class="cu-bar search bg"><view class="search-form round"><text class="cuIcon-search"></text><input adjust-position="{{false}}" type="text" placeholder="快来搜索你想要的" confirm-type="search" data-event-opts="{{[['focus',[['InputFocus',['$event']]]],['blur',[['InputBlur',['$event']]]]]}}" bindfocus="__e" bindblur="__e"/></view><view class="action"></view></view></view>

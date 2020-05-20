@@ -1,0 +1,179 @@
+.userinfo{
+		width:750upx;
+		height:430upx;
+		background:rgba(28,125,246,1);
+		border-radius: 0% 0% 20% 20%;
+		display:relative;
+	.cu-avatar.lg {
+		margin: 40px 40upx 0 40upx;
+		width:122upx;
+		height:122upx;
+	}
+	.usertext{
+		width:400upx;
+		height:100upx;
+	display: absolute;
+	margin:-86upx 0 0 250upx ;
+	.userClass{
+		width:400upx;
+		height: 50upx;
+		color:rgba(255,255,255,1);
+		.nickName{
+			width: 160upx;
+			font-size:34upx;
+			font-family:_;
+			font-weight:600;
+			float: left;
+		}
+		.userType{
+			margin:3% 0 0 3%;
+			width: 110upx;
+			float: left;
+		font-size:24upx;
+		font-family:_;
+		font-weight:400;
+		color:rgba(255,255,255,1);
+		}
+	}
+	.address{
+		width:400upx;
+		font-size:26upx;
+		font-family:PingFang SC;
+		font-weight:500;
+		color:rgba(255,255,255,1);
+	}
+	}	
+			.myOrder{
+				width:706upx;
+				height:242upx;
+				background:rgba(255,255,255,1);
+				box-shadow:0upx 4upx 14upx 0upx rgba(236,236,236,1);
+				border-radius:20upx ;
+				position: absolute;
+				margin: 35upx   22upx    0upx  22upx;
+				.title{
+					margin-top: 3%;
+					background:rgba(255,255,255,1);
+					line-height:36upx ;
+					height:40upx;
+					.malltitle{
+						width:126upx;
+						height:31upx;
+						font-size:32upx;
+						font-family:_;
+						font-weight:800;
+						color:￥;
+					}
+					.more{
+						float: right;
+						margin-right: 2%;
+						color:#B1B1B1;
+					}
+					.orderImg{
+						width:62upx;
+						height:60upx;
+					}
+					.orderText{
+						// width:71upx;
+						// height:23upx;
+						font-size:24upx;
+						font-family:PingFang SC;
+						text-align: center;
+						font-weight:500;
+						color:rgba(37, 37, 37, 1);
+						box-shadow:2% 2% 2% 2% rgba(37, 37, 37, 1) ;
+					}
+				
+				}
+			}
+	}
+	
+	.initFormation{
+		width:750upx;
+		height:210upx;
+		margin-top: 100upx;
+		background-color: white;
+		
+		.formImg{
+			width:90upx;
+			height:90upx;
+			margin: 0 auto ;
+			image{
+				width:100%;
+				height:100%;
+			}
+		}
+		.formText{
+		// margin-left: 7%;
+		margin-top: 12%;
+			font-size:28upx;
+			text-align: center;
+			color:$black-color;
+		}
+	}
+	.shopBox{
+		width: 750upx;;
+		background:rgba(255,255,255,1);
+		margin-top: 5%;
+		float: left;
+		.shopTitle{
+			margin-top: 5%;
+			padding-left: 4%;
+			font-size:28upx;
+			font-weight:600;
+			color:rgba(37,37,37,1)
+		}
+		.shopShow{
+			width:330upx;
+			float: left;
+			margin:20upx;
+			border-radius:20upx ;
+			box-shadow: 0 0 14upx rgba(0, 0, 0, 0.1);
+			.showList{
+				padding: 1%;
+				height:532upx;
+				image{
+					border-radius:20upx ;
+					width:330upx;
+					height:348upx;
+				}
+				.description{
+					font-size:26upx;
+					font-family:PingFang SC;
+					font-weight:500;
+					color:rgba(37,37,37,1);
+					line-height:36upx;
+					 text-overflow: -o-ellipsis-lastline;
+					  overflow: hidden;
+					  text-overflow: ellipsis;
+					  display: -webkit-box;
+					  -webkit-line-clamp: 2;
+					  line-clamp: 2;
+					  -webkit-box-orient: vertical;
+					 padding:10% 2% 2% 2%;
+					 
+					  
+					  
+				}
+				.price{
+					width: 50%;
+					font-size:24upx;
+					font-family:_;
+					font-weight:400;
+					color:rgba(228,57,17,1);
+					float: left;
+					padding:10% 2% 2% 2%;
+				}
+				.sales{
+					font-size:24upx;
+					font-family:PingFang SC;
+					font-weight:500;
+					color:rgba(122,122,122,1);
+					float: right;
+					padding:10% 2% 2% 2%;
+				}
+			}
+		}
+		
+	}
+	

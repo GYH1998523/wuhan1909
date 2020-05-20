@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "授权登录",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {}
+}

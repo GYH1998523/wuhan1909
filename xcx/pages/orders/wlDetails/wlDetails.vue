@@ -1,0 +1,54 @@
+<template>
+	<view  style="height:100vh;width:100vw;background-color: rgba(255, 255, 255, 255)">
+		<view class="detailBox">
+			<view class="cu-bar bg-white">
+				<view class="action title-style-3">
+					<text class="text-xl text-bold">承运公司:</text>
+					<text class="text-Abc text-gray self-end margin-left-sm">中通快递</text>
+				</view>
+			</view>
+			<view class="cu-bar bg-white">
+				<view class="action title-style-3">
+					<text class="text-xl text-bold">运单号:</text>
+					<text class="text-Abc text-gray self-end margin-left-sm">3652104560565</text>
+				</view>
+			</view>
+		</view>
+		<view  style="height:20upx;width:100vw;background-color: #dcdcdc" ></view>
+			<view class="cu-timeline">
+					<view class="cu-item text-blue">
+						<view class=" content " id="content1">快件在北京转运中心，准备发往南昌</view>
+						<view class="dateInfo">2018-4-8 9：00</view>
+					</view>
+					<view class="cu-item text-blue">
+						<view class=" content " id="content1">快件在北京转运中心，准备发往南昌</view>
+						<view class="dateInfo">2018-4-8 9：00</view>
+					</view>
+					<view class="cu-item text-grey">
+						<view class=" content " id="content1">快件在北京转运中心，准备发往南昌</view>
+						<view class="dateInfo">2018-4-8 9：00</view>
+					</view>
+					<view class="cu-item text-grey">
+						<view class=" content " id="content1">快件在北京转运中心，准备发往南昌</view>
+						<view class="dateInfo">2018-4-8 9：00</view>
+					</view>
+			</view>
+			
+			
+			
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+
+			};
+		}
+	}
+</script>
+
+<style lang="scss">
+	@import "./wlDteails.scss"
+</style>

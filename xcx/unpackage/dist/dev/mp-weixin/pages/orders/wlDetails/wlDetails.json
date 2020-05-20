@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "物流详情",
+  "enablePullDownRefresh": true,
+  " frontColor": "#252525",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {}
+}

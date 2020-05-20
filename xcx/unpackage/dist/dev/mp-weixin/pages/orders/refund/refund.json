@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "申请退款",
+  "enablePullDownRefresh": true,
+  " frontColor": "#252525",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {}
+}

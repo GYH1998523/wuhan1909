@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "填写地址",
+  "enablePullDownRefresh": true,
+  "color": "#252525",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {}
+}

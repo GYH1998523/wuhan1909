@@ -1,0 +1,65 @@
+.text-color{
+		font-size:36upx;
+		font-family:_;
+		font-weight:400;
+		color:rgba(37,37,37,1)
+	}
+	.upLoad{
+		width:636upx;
+		height:316upx;
+		background:rgba(250,250,250,1);
+		border-radius:20px;
+		margin: 57upx 57upx 0 57upx;
+		position: relative;
+		.cu-bar{
+			background:rgba(250,250,250,1);
+		}
+		.grid{
+			background:rgba(250,250,250,1);
+		}
+		.upLoadIcon{
+			width: 100upx;
+			height: 100upx;
+			position: absolute;
+			margin: 68upx 268upx 0upx 268upx;
+			.up1{
+				width:22upx;
+				height:100upx;
+				background-color: blue;
+				margin-left: 39.2upx;
+				background:rgba(238,238,238,1);
+				border-radius:11upx;
+			}
+			.up2{
+				height:22upx;
+				width:100upx;
+				background:rgba(238,238,238,1);
+				// margin-bottom: 39.2upx;
+				position: absolute;
+				bottom: 39.2upx;
+				border-radius:11upx;
+			}
+			
+		}
+		.upLoadText{
+				position: absolute;
+				left: 194upx;
+				bottom: 66.9upx;
+				width:270upx;
+				height:28upx;
+				font-size:30upx;
+				font-family:PingFang SC;
+				font-weight:500;
+				color:rgba(122,122,122,1);
+				text-align: center;
+			}
+	}
+	.bg-register{
+		width:706upx;
+		height:86upx;
+		background:linear-gradient(180deg,rgba(50,172,255,1),rgba(28,125,246,1));
+		border-radius:43upx;
+		margin: 340upx 22upx 0upx 22upx;
+		font-size:36upx;
+		color:rgba(248,248,248,1);
+	}

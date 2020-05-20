@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "修改个人资料",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {}
+}

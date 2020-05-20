@@ -1,0 +1,51 @@
+.page{
+	background-color: white;
+	height:100vh;
+
+.loginLogo{
+	width:750upx;
+	height:232upx;
+	
+	// padding-top:120upx  ;
+	// padding-left: 157upx;
+	image{
+		margin-top: 120upx;
+		margin-left: 157upx;
+		width:436upx;
+		height:112upx;
+	}
+}
+.loginForm{
+	width: 100vw;
+	padding: 45upx;
+	float: left;
+	input{
+		width: 600upx;
+		height: 120upx;
+		box-sizing: border-box;
+		border:none;
+		border-bottom: 1upx solid rgba(229,229,229,1);
+		font-size: 34upx;
+		color:rgba(177,177,177,1);
+		margin-left: 30upx;
+	}
+	.bg-login{
+		width:660upx;
+		height:86upx;
+		margin-top: 100upx;
+		background:linear-gradient(180deg,rgba(50,172,255,1),rgba(14, 68, 246, 255));
+		background:linear-gradient(180deg,rgba(50,172,255,1),rgba(28,125,246,1));
+		border-radius:43px;
+		font-size:36upx;
+		font-family:_;
+		font-weight:400;
+		color:rgba(248,248,248,1);
+	}
+	.color{
+		font-size:30upx;
+		font-family:PingFang SC;
+		font-weight:500;
+		color:rgba(122,122,122,1);
+	}
+}
+}

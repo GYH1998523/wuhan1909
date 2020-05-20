@@ -1,0 +1,69 @@
+.comm_info {
+	width: 750upx;
+	height: 284upx;
+	background: rgba(255, 255, 255, 1);
+	padding: 21upx;
+	margin-bottom: 50upx;
+	.comm_top {
+		height: 256upx;
+		padding-top: 22upx;
+
+		.comm_hand {
+			width: 90upx;
+			height: 90upx;
+			border-radius: 50%;
+			float: left;
+			image {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+		}
+		.comm_data {
+			width: 565upx;
+			float: left;
+			margin-left: 35upx;
+			border-bottom: 1upx solid #cecece;
+			.comm_tit {
+				height: 90upx;
+				line-height: 90upx;
+
+				view {
+					float: left;
+					width: 33%;
+				}
+			}
+			.comm_con {
+				width: 575upx;
+				height: 115upx;
+				font-size: 26upx;
+				font-family: PingFang SC;
+				font-weight: 500;
+				color: rgba(37, 37, 37, 1);
+				line-height: 38upx;
+
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+			}
+			
+		}
+	}
+
+}
+.img_info {
+				width: 575upx;
+				float: left;
+				margin-bottom: 57upx;
+				.conn_img{
+					float: left;
+				
+					margin: 10upx;
+					.image{
+					width: 166upx;
+					height: 166upx;
+					}
+				}
+			}

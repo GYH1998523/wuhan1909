@@ -1,0 +1,52 @@
+.hand_userInfo {
+	width: 750upx;
+	height: 198upx;
+	// background:rgba(255,255,255,1);
+	// margin:40upx 22upx 22upx 22upx;
+	.font_icon {
+		float: left;
+		// padding: 26upx 82upx ;
+		line-height: 198upx;
+		text-align: center;
+		height: 198upx;
+		width: 72upx;
+	}
+	.userInfo {
+		float: left;
+		width: 600upx;
+		height: 198upx;
+		padding: 40upx 0;
+		view {
+			padding: 11upx;
+		}
+		.user_nameTEl {
+			font-size: 30upx;
+			font-family: PingFang SC;
+			font-weight: 500;
+			color: rgba(37, 37, 37, 1);
+		}
+		.user_add {
+			font-size: 26upx;
+			font-family: PingFang SC;
+			font-weight: 500;
+			color: rgba(122, 122, 122, 1);
+		}
+	
+	}
+	.icon {
+		width: 50upx;
+		height: 198upx;
+		line-height: 198upx;
+		float: left;
+	}
+}
+
+.moren{
+	font-size:22upx;
+	padding: 11upx;
+	margin-left: 3%;
+	font-family:_;
+	background-color: rgba(214, 214, 214, 1);
+	font-weight:400;
+	color:rgba(177,177,177,1);
+	}

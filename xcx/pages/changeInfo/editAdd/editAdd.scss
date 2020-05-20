@@ -1,0 +1,62 @@
+page{
+	background-color: white;
+}
+.addList{
+	width: 750upx;
+	height: 232upx;
+	padding:  25upx;
+	view{
+		line-height: 50upx;
+		font-size:32upx;
+		font-family:_;
+		font-weight:500;
+		color:rgba(37,37,37,1);
+		
+	}
+	.user_nameTEl{
+		font-size:30upx;
+		font-family:PingFang SC;
+		font-weight:500;
+		color:rgba(37,37,37,1);
+	}
+	.user_add{
+		font-size:26upx;
+		font-family:PingFang SC;
+		font-weight:500;
+		color:rgba(122,122,122,1);
+	}
+	.edit_list{
+		height: 100upx;
+		border-bottom: 1upx solid #D3D3D3;
+		.list{
+			float: left;
+			.image{
+				width: 30upx;
+				height: 30upx;
+				float: left;
+				image{
+					width:100%;
+					height:100%;
+					margin: 0 auto ;
+				}
+			}
+			
+		}
+	}
+}
+.bg-register{
+	width:706upx;
+	height:86upx;
+	background:linear-gradient(180deg,rgba(50,172,255,1),rgba(28,125,246,1));
+	border-radius:43upx;
+	margin: 400upx 22upx 0upx 22upx;
+	font-size:36upx;
+	color:rgba(248,248,248,1);
+}
+.scroll{
+	width: 100%;
+	height: 690upx;
+	overflow: hidden;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}

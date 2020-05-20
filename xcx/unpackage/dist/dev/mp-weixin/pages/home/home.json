@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#1C7DF6",
+  "navigationBarTitleText": "医来顺",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "search": "/mycomponents/search/search"
+  }
+}

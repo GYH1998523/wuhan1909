@@ -1,0 +1,41 @@
+
+	.text-color{
+		font-size:36upx;
+		font-family:_;
+		font-weight:400;
+		color:rgba(37,37,37,1)
+	}
+	.cu-form-group{
+		padding: 0 !important;}
+.cu-form-group1{
+	text-align: right;
+ 
+}
+.cu-form-group picker .picker{
+	font-size: 30upx;
+	color: #787878;
+
+}
+.bg-register{
+	width:706upx;
+	height:86upx;
+	background:linear-gradient(180deg,rgba(50,172,255,1),rgba(28,125,246,1));
+	border-radius:43upx;
+	margin: 650upx 22upx 0upx 22upx;
+	font-size:36upx;
+	color:rgba(248,248,248,1);
+}
+
+
+	page{
+		background-color: white;
+	}
+	.title{
+		font-size:30upx;
+		font-family:PingFang SC;
+		font-weight:500;
+		color:rgba(37,37,37,1);
+	}
+	.border{
+		border-bottom: 1upx solid #eee;
+	}

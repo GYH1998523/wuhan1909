@@ -1,0 +1,55 @@
+.commBody{
+	height: 260upx;
+	width: 100%;
+	background-color:white;
+	
+	.commImg{
+	width: 210upx;
+	margin-top: 30upx;
+	float:left;
+		image{
+		width:208upx;
+		height:206upx;
+	}
+	}
+.commScore{
+	float: left;
+		.commTit{
+			// width:125px;
+			// height:31px;
+			margin-top: 100upx;
+			font-size:32upx;
+			font-family:PingFang SC;
+			font-weight:500;
+			color:rgba(37,37,37,1);
+		}
+		.commXx{
+			.xxLsit{
+				
+			}
+		}
+	
+	}
+}
+.top{
+	width: 100%;
+	height: 22upx;
+	background-color: #eeeeee;
+}
+	textarea{
+		height: 224upx;
+	}
+	.bg-login{
+			width:660upx;
+			height:86upx;
+			margin-top: 230upx;
+			margin-left: 45upx;
+			background:linear-gradient(180deg,rgba(50,172,255,1),rgba(14, 68, 246, 255));
+			background:linear-gradient(180deg,rgba(50,172,255,1),rgba(28,125,246,1));
+			border-radius:43px;
+			font-size:36upx;
+			font-family:_;
+			font-weight:400;
+			color:rgba(248,248,248,1);
+		}
+

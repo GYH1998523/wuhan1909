@@ -1,0 +1,208 @@
+// .head {
+// 	width: 750upx;
+// 	height: 248upx;
+// 	background: rgba(28, 125, 246, 1);
+// 	padding-top: 67upx;
+
+// 	font-size:36upx;
+// 	font-family:_;
+// 	font-weight:500;
+// 	color:rgba(255,255,255,1);
+// 	.cu-bar{
+// 		background-color:  rgba(28, 125, 246, 1);
+// 	}
+// 	.cuIcon-back{
+// 		margin-left: 3%;
+// 	}
+// 	.content {
+// 		color: white;
+// 	}
+// 	.action{
+
+// 		font-size:26upx;
+// 		font-family:PingFang SC;
+// 		font-weight:500;
+// 		color:rgba(255,255,255,1);
+// 		}
+// }
+
+.head {
+	background-color: #1c7df6;
+	width: 100%;
+	height: 120upx;
+	font-size: 26upx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	padding: 22upx;
+
+	.switch {
+		float: left;
+		font-size: 32upx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 1);
+		margin: 10upx;
+	}
+	.xia {
+		line-height: 70upx;
+	}
+	.taoCan {
+		display: none;
+	}
+	.delete {
+		float: right;
+	}
+}
+.body {
+	width: 100%;
+	height: 1000upx;
+	margin-top: -20upx;
+	padding-top: 20upx;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 24upx 24upx 0upx 0upx;
+	.body_grey {
+		width: 100%;
+		height: 980upx;
+		background-color: #efefef;
+		// margin-top: -40upx;
+	}
+	.info {
+		width: 100%;
+		height: 264upx;
+		padding: 22upx;
+		margin-top: 20upx;
+		background-color: white;
+		view {
+			float: left;
+		}
+		.cleckOne {
+			line-height: 190upx;
+			width: 50upx;
+			height: 264upx;
+		}
+		.image {
+			width: 182upx;
+			height: 202upx;
+			margin-left: 22upx;
+			margin-right: 22upx;
+			image {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.connBox {
+			float: left;
+			width: 420upx;
+			height: 75upx;	.conn {
+			text-overflow: -o-ellipsis-lastline;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+			-webkit-box-orient: vertical;
+			font-size: 28upx;
+			font-family: PingFang SC;
+			font-weight: 500;
+			color: rgba(37, 37, 37, 1);
+		}
+		}
+		.cs{
+			margin-top: 22upx;
+			font-size:22upx;	
+			padding: 14upx;
+			background:rgba(248,248,248,1);
+			border-radius:8upx;
+			font-family:PingFang SC;
+			font-weight:500;
+			color:rgba(122,122,122,1);
+		}
+		.jisuan{
+			float: right;
+			width: 100upx;
+			
+			.redu{
+				float: left;
+				width: 25upx;
+				height: 25upx;
+				background-color: white;
+				border: 1upx solid rgba(28,125,246,1);
+				box-sizing: border-box;
+				color:rgba(28,125,246,1);
+				border-radius: 50%;
+				line-height: 18upx;
+				text-align: center;
+				margin-top: 38%;
+			}
+			.add{
+				width: 25upx;
+				height: 25upx;
+				text-align: center;
+				margin-top: -upx;
+				float: left;
+			}
+			.num{
+				width:17upx;
+				font-size:24upx;
+				font-family:PingFang SC;
+				font-weight:400;
+				color:rgba(37,37,37,1);
+				float: left;
+				margin: 0 10upx;
+				margin-top: -2upx;
+			}
+		}
+		.dataInfo{
+			width: 100%;
+			height: 100upx;
+			line-height: 100upx;
+		}
+		.price{
+		font-size:24upx;
+		font-family:_;
+		font-weight:400;
+		color:rgba(228,57,17,1);
+		float: left;
+		}
+		.data{
+			float: right;
+		}
+	
+	}
+	.submitData {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100upx;
+		background-color: white;
+		padding: 22upx;
+		view {
+			float: left;
+			line-height: 66upx;
+		}
+		.allCheck {
+			width: 100upx;
+			height: 100upx;
+			font-size: 26upx;
+			margin-left: 2%;
+			font-family: PingFang SC;
+			font-weight: 500;
+			color: rgba(37, 37, 37, 1);
+		}
+		.allPrice {
+			font-size: 26upx;
+			font-family: _;
+			font-weight: 600;
+			color: rgba(228, 57, 17, 1);
+		}
+		button {
+			width: 220upx;
+			height: 68upx;
+			background: linear-gradient(180deg, rgba(50, 172, 255, 1), rgba(28, 125, 246, 1));
+			border-radius: 34upx;
+			margin-left: 120upx;
+		}
+	}
+}

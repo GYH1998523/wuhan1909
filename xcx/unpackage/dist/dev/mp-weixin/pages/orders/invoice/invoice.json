@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "申请开发票",
+  "enablePullDownRefresh": true,
+  " frontColor": "#252525",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {}
+}

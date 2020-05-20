@@ -1,0 +1,209 @@
+.submitData {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100upx;
+	background-color: white;
+	padding: 22upx;
+	view {
+		float: left;
+		line-height: 66upx;
+	}
+
+	.allPrice {
+		font-size: 26upx;
+		font-family: _;
+		font-weight: 600;
+		color: rgba(228, 57, 17, 1);
+	}
+	button {
+		width: 220upx;
+		height: 68upx;
+		background: linear-gradient(180deg, rgba(50, 172, 255, 1), rgba(28, 125, 246, 1));
+		border-radius: 34upx;
+		margin-left: 280upx;
+	}
+}
+
+.hand_userInfo {
+	width: 750upx;
+	height: 198upx;
+	// background:rgba(255,255,255,1);
+	// margin:40upx 22upx 22upx 22upx;
+	.font_icon {
+		float: left;
+		// padding: 26upx 82upx ;
+		line-height: 198upx;
+		text-align: center;
+		height: 198upx;
+		width: 72upx;
+	}
+	.userInfo {
+		float: left;
+		width: 600upx;
+		height: 198upx;
+		padding: 40upx 0;
+		view {
+			padding: 11upx;
+		}
+		.user_nameTEl {
+			font-size: 30upx;
+			font-family: PingFang SC;
+			font-weight: 500;
+			color: rgba(37, 37, 37, 1);
+		}
+		.user_add {
+			font-size: 26upx;
+			font-family: PingFang SC;
+			font-weight: 500;
+			color: rgba(122, 122, 122, 1);
+		}
+	
+	}
+	.icon {
+		width: 50upx;
+		height: 198upx;
+		line-height: 198upx;
+		float: left;
+	}
+}
+
+.goods_list{
+	width: 706upx;
+	height: 264upx;
+	box-sizing: border-box;
+	padding: 13upx 0upx;
+	margin: 0 22upx;
+	.list_img{
+		float: left;
+		width:224upx;
+		height:209upx;
+		border-radius:10px;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.list_info{
+		width: 480upx;
+		float: left;
+		padding-left: 38upx;
+		.info_conn{
+			height: 80upx;
+			font-size:26upx;
+			line-height: 40upx;
+			font-family:PingFang SC;
+			font-weight:500;
+			color:rgba(37,37,37,1);
+			text-overflow: -o-ellipsis-lastline;
+			overflow: hidden;
+			text-align: ellipsis;
+			display: -webkit-box;
+			line-clamp:2;
+			-webkit-line-clamp: 2;
+			-webkit-box-orider:vertical;
+		}
+		.info_params{
+			height:21upx;
+			font-size:22upx;
+			font-family:PingFang SC;
+			font-weight:500;
+			color:rgba(177,177,177,1);
+			margin: 28upx 0;
+		}
+		.info_price{
+			width: 420upx;
+			height: 40upx;
+			margin-top: 22upx;
+			font-family:PingFang SC;
+			font-weight:400;
+			color:rgba(122,122,122,1);
+		}
+		
+		.info_price_now{
+			font-size:26upx;
+			font-family:_;
+			font-weight:500;
+			color:rgba(228,57,17,1);
+			line-height: 40upx;
+		}
+		.info_price_old{
+			font-size:20upx;
+			line-height: 20upx;
+			margin-left: 3%;
+			text-decoration: line-through;
+		}
+		.info_price_sale{
+			float: right;
+			font-size:20upx;
+			line-height: 40upx;
+			font-family:PingFang SC;
+			font-weight:500;
+			color:rgba(122,122,122,1);
+		}
+	}
+}
+.title{
+	font-size:34upx;
+	font-family:_;
+	font-weight:400;
+	color:rgba(37,37,37,1);
+	width:750upx;
+	height:92upx;
+	line-height: 92upx;
+	background:rgba(255,255,255,1);
+	padding-left: 22upx;
+}
+
+.pay{
+	width: 100%;
+	height: 100upx;
+	padding: 22upx;
+	.weixinTu{
+		width: 60upx;
+		height: 60upx;
+		float: left;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.weixinPay{
+		float: left;
+		margin-left: 3%;
+		font-size:30upx;
+		line-height: 55upx;
+		font-family:PingFang SC;
+		font-weight:500;
+		color:rgba(122,122,122,1);
+		
+	}
+	
+}.box{
+		width:706upx;
+		height:230upx;
+		border:2px dotted rgba(28,125,246,1);
+		border-radius:12upx;
+		margin: 22upx;
+		.img{
+			width: 58upx;
+			height: 58upx;
+			margin: 0 auto ;
+			margin-top: 59upx;
+			margin-bottom: 30upx;
+			image{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.initAdd{
+			width: 100%;
+			text-align: center;
+			margin: 0 auto ;
+			font-size:30upx;
+			font-family:PingFang SC;
+			font-weight:500;
+			color:rgba(122,122,122,1);
+		}
+	}
