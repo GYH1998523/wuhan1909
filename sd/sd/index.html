@@ -398,7 +398,7 @@
         </div>
 
         <!-- 学历提升 -->
-        <div class="education">
+        <!-- <div class="education">
             <div class="title_box">
                 <div class="education_title">
                     4大学历提升方式/总有一种适合你
@@ -498,7 +498,7 @@
         </ul>
         <div class="plan_button">
             <div>选择适合的学历提升方案</div>
-        </div>
+        </div> -->
         <!-- 学习中心介绍 -->
         <div class="section_title margin_top">
             <div class="title_img"><img src="./images/title_4.gif" alt=""></div>
@@ -563,7 +563,9 @@
             prevEl: '.swiper-button-prev',
         },
     });
-    $(function () {
+    back_top()
+    function back_top(){
+        $(function () {
         window.onscroll = function () {
             var scrollTop = $(window).scrollTop();
             if (scrollTop > 100) {
@@ -578,4 +580,5 @@
             $('html,body').animate({ scrollTop: 0 }, 500);
         })
     })
+    }
 </script>
